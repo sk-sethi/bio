@@ -1,29 +1,403 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Source Themes Academic 4.1.0">
+    <meta name="generator" content="Hugo 0.53" />
+    <meta name="author" content="Satya A">  
+    <meta name="description" content="Computer Science Undergrad">  
+    <link rel="alternate" hreflang="en-us" href="/">  
+    <meta name="theme-color" content="#EF525B">      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">       
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+    <link rel="stylesheet" href="styles.css">  
+    <link rel="alternate" href="index.xml" type="application/rss+xml" title="Satya A">
+    <link rel="feed" href="index.xml" type="application/rss+xml" title="Satya A">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" href="/img/icon.png">
+    <link rel="canonical" href="/">  
+    <meta property="twitter:card" content="summary">  
+    <meta property="twitter:site" content="@prateekiiest">
+    <meta property="twitter:creator" content="@prateekiiest">  
+    <meta property="og:site_name" content="Satya A">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Sujit Sethi">
+    <meta property="og:description" content="Computer Science Undergrad"><meta property="og:image" content="/img/icon-192.png">
+    <meta property="og:locale" content="en-us">  
+    <meta property="og:updated_time" content="2016-04-27T00:00:00&#43;00:00">
+    <link rel="shortcut icon" type="image/x-icon" href="index.png" />
+    <title>Satya A</title>
+</head>
+
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+    <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+        <div class="container">    
+            <a class="navbar-brand" href="#about">Sujit Sethi</a>      
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>    
+            <div class="collapse navbar-collapse" id="navbar">      
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                 <a class="nav-link" href="#about" data-target="#about"> <span>Home</span> </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#cert" data-target="#cert"> <span>Certifications</span>  </a>
+              </li>        
+              <li class="nav-item">
+                 <a class="nav-link" href="#projects" data-target="#projects">  <span>Projects</span>  </a>
+              </li>        
+             <li class="nav-item">
+                <a class="nav-link" href="#contact" data-target="#contact">  <span>Contact</span>  </a>
+              </li>
+             <li class="nav-item">
+                <a class="nav-link" href="resume.pdf" target="_blank" data-target="resume.pdf">  <span>CV</span>  </a>
+              </li>      
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <span id="homepage" class="d-none"></span>  
+    <section id="about" class="home-section wg-about" >
+      <div class="container">
+          <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
+            <div class="col-12 col-lg-4">
+              <div id="profile">      
+                  <img class="portrait" src="img.jpeg" itemprop="image" alt="Avatar">
+                  <div class="portrait-title">
+                    <h2 itemprop="name">Satya A</h2>
+                    <h3 itemprop="jobTitle">A Computer Science Grad student. Trying to learn how to make computers as intelligent as humans using Deep Learning</h3>        
+                    <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"> <span itemprop="name">MRIT</span> </h3>        
+                  </div>
+                  <link itemprop="url" href="">
+                  <ul class="network-icon" aria-hidden="true">        
+                    <li>
+                      <a itemprop="sameAs" href="#contact">  
+                        <i class="fas fa-envelope big-icon"></i>
+                      </a>
+                    </li>           
+                    <li>
+                      <a itemprop="sameAs" href="https://github.com/satya-aj" target="_blank" rel="noopener">
+                        <i class="fab fa-github big-icon"></i>
+                      </a>
+                    </li>       
+                    <li>
+                      <a itemprop="sameAs" href="http://www.linkedin.com/in/satya-aj" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin big-icon"></i>
+                      </a>
+                    </li>        
+                    <li>
+                      <a itemprop="sameAs" href="resume.pdf" >
+                        <i class="ai ai-cv big-icon"></i>
+                      </a>
+                    </li>       
+                  </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8" itemprop="description">   
+              <h1>About</h1>
+                <p>A computer science grad student. I am a hunger for learning, self improvement and always have a willingness to 
+                  accept constructive criticism, able to work as both a self guided or as in team member. I enjoy creating great products and working in a dynamic 
+                  environment with a focus on good development practices, automation. My ideal world would be computers helping humans in every way to make every human life on earth pleasant as possible.
+                </p>
+                <div class="row">      
+                    <div class="col-md-5">
+                      <h3>Skills</h3>
+                      <h5> Proficient with</h5>
+                      <ul class="ul-interests">          
+                        <li>Python3, C++, C, Java</li>          
+                        <li>Pytorch, Fastai, Sklearn</li>          
+                        <li>C#, Asp.net - MVC, Sql</li>          
+                        <li>Git - version control</li>
+                        <li>Html, CSS, Javascript</li>       
+                      </ul>
+                      <h5> Familar with</h5>
+                      <ul class="ul-interests">
+                        <li>AWS - EC2, S3, SageMaker, Docker, Tensorflow</li>
+                        <li>Django, flask, Nodejs, React</li>
+                        <li>Shell Scripting, Matlab</li>
+                      </ul>
+                    </div>      
+                    <div class="col-md-7">
+                      <h3>Education</h3>
+                      <ul class="ul-edu fa-ul">
+                        <li>
+                          <i class="fa-li fas fa-graduation-cap"></i>
+                          <div class="description">
+                            <p class="course">Udacity - Deep Learning Nanodegree</p>
+                            <p class="institution">Graduate | July 2020</p>
+                          </div>
+                        </li>             
+                        <li>
+                          <i class="fa-li fas fa-graduation-cap"></i>
+                          <div class="description">
+                            <p class="course"> Malla Reddy Instuite of Technology</p>
+                            <p class="institution">B.Tech - 2019 | Computer Science and Engineering</p>
+                          </div>
+                        </li>          
+                        <li>
+                          <i class="fa-li fas fa-graduation-cap"></i>
+                          <div class="description">
+                            <p class="course">Narayana Jr College </p>
+                            <p class="institution">High School | 2015</p>
+                          </div>
+                        </li> 
+                        <li>
+                            <i class="fa-li fas fa-graduation-cap"></i>
+                            <div class="description">
+                              <p class="course"> Brilliant Grammer High School</p>
+                              <p class="institution">School | 2013</p>
+                            </div>
+                        </li>          
+                      </ul>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+     
+    <section id="cert" class="home-section wg-featurette">
+         <div class="container" >       
+            <div class="row">
+                <div class="col-12 col-lg-4 section-heading">
+                    <h1>Certifications</h1>                      
+                </div>
+                <div class="col-12 col-lg-8">               
+                   <div class="card experience course">
+                      <div class="card-body"><h4 class="card-title exp-title text-muted my-0"> <a href="https://confirm.udacity.com/RHHLCZHK">Deep learning Nanodegree</a>  </h4>
+                        <div class="card-subtitle my-0 article-metadata">
+                           <a href="https://www.udacity.com/course/deep-learning-nanodegree--nd101" target="_blank" rel="noopener">Udacity</a><span class="middot-divider"></span>                        
+                        </div>            
+                      </div>
+                   </div>   
+                   <div class="card experience course">
+                    <div class="card-body"><h4 class="card-title exp-title text-muted my-0"> <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/Z8S8FM2EEXQU">Deep learning Specialization</a>  </h4>
+                      <div class="card-subtitle my-0 article-metadata">
+                         <a href="https://deeplearning.ai/deep-learning-specialization/" target="_blank" rel="noopener">deeplearning.ai</a><span class="middot-divider"></span>                        
+                      </div>            
+                    </div>
+                 </div>                      
+                   <div class="card experience course">
+                      <div class="card-body"><h4 class="card-title exp-title text-muted my-0"> <a href="https://courses.cognitiveclass.ai/certificates/00750fb846744e00bbad0d763ffd8c15">Data Analysis with Python</a> </h4>
+                        <div class="card-subtitle my-0 article-metadata">
+                          <a href="https://cognitiveclass.ai/courses/data-analysis-python/" target="_blank" rel="noopener">IBM Cognitive Class</a><span class="middot-divider"></span>                              
+                        </div>                    
+                      </div>
+                    </div>                      
+                    <div class="card experience course">
+                        <div class="card-body"><h4 class="card-title exp-title text-muted my-0"> <a href="https://drive.google.com/file/d/1gZJnyCclQRkoAGkhPFugy9XfE5fbgeKS/view">Linux Essentials </a> </h4>
+                          <div class="card-subtitle my-0 article-metadata">
+                             <a href="https://www.netacad.com/web/self-enroll/course-693468" target="_blank" rel="noopener">Cisco Netcad Academy</a><span class="middot-divider"></span>                      
+                          </div>                 
+                        </div>
+                    </div>                      
+                    <div class="card experience course">
+                       <div class="card-body"><h4 class="card-title exp-title text-muted my-0"> <a href="https://www.udemy.com/certificate/UC-LN2PXHUL/">Python3</a> </h4>
+                         <div class="card-subtitle my-0 article-metadata">
+                              <a href="https://www.udemy.com/python-complete/" target="_blank" rel="noopener">Udemy</a><span class="middot-divider"></span>                    
+                         </div>                  
+                      </div>
+                    </div>           
+                </div>
+            </div>
+        </section> 
+    </div> 
+
+
+    <section id="projects" class="home-section wg-portfolio" >
+       <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-md-4 section-heading">
+                <h1>  <a href="https://github.com/satya-aj?tab=repositories" target="_blank" style="color: #313131">Projects</a> </h1>
+              </div>
+              <div class="col-18 col-lg-8">
+              <div class="col-lg-8">
+                  <div class="github-widget card experience course" data-repo="satya-aj/fastai-image-classifier">
+                    <div class="github-box repo"><div class="github-box-title">
+                       <h3><a class="owner" href="https://github.com/satya-aj" title="https://github.com/satya-aj">satya-aj</a>/
+                        <a class="repo" href="https://github.com/satya-aj/fastai-image-classifier" title="https://github.com/satya-aj/fastai-image-classifier">fast.ai-image-classifier</a>
+                        </h3>
+                        <div class="github-stats">
+                          <a class="watchers" href="http://github.com/satya-aj/fastai-image-classifier/watchers" title="See watchers">0</a>
+                          <a class="forks" href="http://github.com/satya-aj/fastai-image-classifier/network/members" title="See forkers">0</a>
+                        </div></div>
+                        <div class="github-box-content"><p class="description">
+                        <span>Classify images of animals this project is built upon
+                          fast.ai library using resnet34 architecture </span> — <a href="https://github.com/satya-aj/fastai-image-classifier/blob/master/README.md">Read More</a></p>
+                         
+                        </div>
+                        <div class="github-box-download"><div class="updated"> <p class="link"><a href="https://fastai-image-classifier-jrgz.onrender.com/" target="_blank" title="Deployed in Render">Live Demo</a> &nbsp; &nbsp;
+                                                                                                    ipynb - <a href="https://github.com/satya-aj/fastai-image-classifier/blob/master/lesson2_download.ipynb">code</a> </p></div>
+                          <a class="download" href="https://github.com/satya-aj/fastai-image-classifier/archive/master.zip" title="Get an archive of this repository">Download as zip</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <br>
+
+              <div class="col-lg-8">
+                <div class="github-widget card experience course" data-repo="satya-aj/Image-Captioning">
+                  <div class="github-box repo"><div class="github-box-title">
+                    <h3><a class="owner" href="https://github.com/satya-aj" title="https://github.com/satya-aj">satya-aj</a>/
+                      <a class="repo" href="https://github.com/satya-aj/AStar-pathfinder" title="https://github.com/satya-aj/AStar-pathfinder">A* Pathfinder</a>
+                      </h3>
+                      <div class="github-stats">
+                        <a class="watchers" href="https://github.com/satya-aj/AStar-pathfinder/watchers" title="See watchers">0</a>
+                        <a class="forks" href="https://github.com/satya-aj/AStar-pathfinder/network/members" title="See forkers">0</a>
+                      </div></div>
+                      <div class="github-box-content"><p class="description">
+                        <span>Finds the shortest path to reach the goal. This is similar to Dijkstra's or Greedy Best-First-Search Algorithm 
+                        </span> — <a href="https://en.wikipedia.org/wiki/A*_search_algorithm">Read More</a></p>                      
+                      </div>
+                      <div class="github-box-download"><div class="updated"> <p class="link"> <a href="https://satya-aj.github.io/Astar-pathfinder/" target="_blank">Live Demo</a> &nbsp; &nbsp;
+                                                      <a href="https://github.com/satya-aj/AStar-pathfinder">code</a> </p></div>
+                        <a class="download" href="https://github.com/satya-aj/AStar-pathfinder/archive/master.zip" title="Get an archive of this repository">Download as zip</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <br>
+
+              <div class="col-lg-8">
+                  <div class="github-widget card experience course" data-repo="https://github.com/satya-aj/Image-style-transfer-using-CNN">
+                    <div class="github-box repo"><div class="github-box-title">
+                      <h3><a class="owner" href="https://github.com/satya-aj" title="https://github.com/satya-aj">satya-aj</a>/
+                        <a class="repo" href="https://github.com/satya-aj/Image-style-transfer-using-CNN" title="https://github.com/satya-aj/Image-style-transfer-using-CNN">Image-style-Transfer</a>
+                        </h3>
+                        <div class="github-stats">
+                          <a class="watchers" href="https://github.com/satya-aj/Image-style-transfer-using-CNN/watchers" title="See watchers">0</a>
+                          <a class="forks" href="https://github.com/satya-aj/Image-style-transfer-using-CNN/network/members" title="See forkers">0</a>
+                        </div></div>
+                        <div class="github-box-content"><p class="description">
+                        <span>Create art work type images using style image and
+                          content image using neural style transfer</span> — <a href="https://github.com/satya-aj/Image-style-transfer-using-CNN/blob/master/README.md">Read More</a></p>
+                        
+                        </div>
+                        <div class="github-box-download"><div class="updated"> <p class="link">Paper -- <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf" target="_blank">Paper</a> 
+                          &nbsp;  &nbsp;  &nbsp;          ipynb -- <a href="https://github.com/satya-aj/Image-style-transfer-using-CNN/blob/master/Neural_Style_Transfer_using_pytorch.ipynb">code</a> </p></div>
+                          <a class="download" href="https://github.com/satya-aj/Image-style-transfer-using-CNN/archive/master.zip" title="Get an archive of this repository">Download  as zip</a>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <br>
+
+              <div class="col-lg-8">
+                <div class="github-widget card experience course" data-repo="satya-aj/Image-Captioning">
+                  <div class="github-box repo"><div class="github-box-title">
+                    <h3><a class="owner" href="https://github.com/satya-aj" title="https://github.com/satya-aj">satya-aj</a>/
+                      <a class="repo" href="https://github.com/satya-aj/Image-Captioning" title="https://github.com/satya-aj/Image-Captioning">image-captioning</a>
+                      </h3>
+                      <div class="github-stats">
+                        <a class="watchers" href="https://github.com/satya-aj/Image-Captioning/watchers" title="See watchers">0</a>
+                        <a class="forks" href="https://github.com/satya-aj/Image-Captioning/network/members" title="See forkers">0</a>
+                      </div></div>
+                      <div class="github-box-content"><p class="description">
+                        <span>Image paragraph captioning involves generating a detailed, multi-sentence description of the content of an image.
+                        </span> — <a href="https://github.com/satya-aj/Image-Captioning/blob/master/README.md">Read More</a></p>                      
+                      </div>
+                      <div class="github-box-download"><div class="updated"> <p class="link">Paper -- <a href="https://arxiv.org/pdf/1411.4555.pdf" target="_blank">Paper</a> &nbsp;  &nbsp;  &nbsp; 
+                                                                                                ipynb -- <a href="https://github.com/satya-aj/Image-Captioning/blob/master/Image_Captioning_with_Attention.ipynb">code</a> </p></div>
+                        <a class="download" href="https://github.com/satya-aj/Image-Captioning/archive/master.zip" title="Get an archive of this repository">Download as zip</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <br>
+          <br>
+        </div>
+    </section>
+    
+    
+    <section id="contact" class="home-section wg-contact" >
+        <div class="container">
+            <div class="row contact-widget">
+                <div class="col-12 col-lg-4 section-heading">
+                  <h1>Contact</h1>    
+                </div>
+                <div class="col-12 col-lg-8">
+                  <ul class="fa-ul" itemscope>
+                      <li>
+                          <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+                          <span id="person-email" itemprop="email"><a href="mailto:satya.aj001@gmail.com">satya.aj001@gmail.com</a></span>
+                      </li>
+                      <li>
+                        <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
+                        <span id="person-twitter" itemprop="twitter"><a href="https://twitter.com/unown_a0">satya-aj</a></span>
+                      </li> 
+                   
+                      <li>
+                          <i class="fa-li fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                          <span id="person-telephone" itemprop="telephone"><a href="http://www.linkedin.com/in/satya-aj">satya-aj</a></span>
+                      </li>     
+                      <li>
+                          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+                          <span id="person-address" itemprop="address">Jeedimetla, Hyderabad 500055, India</span>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+      <footer class="site-footer">
+          <p class="powered-by">       
+            <span class="float-right" aria-hidden="true">
+              <a href="#" id="back_to_top">
+                <span class="button_icon">
+                  <i class="fas fa-chevron-up fa-2x"></i>
+                </span>
+              </a>
+            </span>    
+          </p>
+    </footer>
+    </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      <script>hljs.initHighlightingOnLoad();</script>   
+    
+      <script>
+        const search_index_filename = "/index.json";
+        const i18n = {
+          'placeholder': "Search...",
+          'results': "results found",
+          'no_results': "No results found"
+        };
+        const content_type = {
+          'post': "Posts",
+          'project': "Projects",
+          'publication' : "Publications",
+          'talk' : "Talks"
+          };
+      </script>
+ 
+    
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{title}}</a>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{snippet}}</p>
+          </div>
+        </div>
+        </div>
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>   
+      <script src="/js/academic.min.d7381f2d79e6271d4da28f474f49096c.js"></script>  
+  </body>
 </html>
