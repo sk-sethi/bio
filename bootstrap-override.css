@@ -8,6 +8,10 @@
 .navbar-inverse .brand {
 	color: white;
 }
+.navbar-light{
+	background: #26C9FF !important;
+	
+}
 .navbar-inverse  {
 	background-color: #4B8ABE;
 	background-image: linear-gradient(to bottom, #2d3538, #2d3538);
